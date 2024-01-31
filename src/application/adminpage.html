@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <!-- Meta Starts -->
+    <title>SRE ITS 2022 - Admin</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ini adalah website untuk SRE ITS 2022/2023 dibuat oleh Divisi IT DEV">
+    <meta name="author" content="IT DEV SRE ITS 2022/2023">
+    <meta name="theme-color" content="#0F936D" />
+    <!-- Meta Ends -->
+
+    <!-- Link Starts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../style/admin.css">
+    <link rel="stylesheet" href="../js/admin.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Link Ends -->
+
+    <!-- Icon Starts -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <!-- Icon Ends -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Slider Profile Admin -->
+        <div class="row">
+            <div class="slider " id="sliders">
+                <!--Profile staff START-->
+                <div class="slider-head">
+                    <div class="text-center layzload">
+                        <img src="../img/SREPutih.png" alt="user" class="sreputih mt-5">
+                    </div>
+                    <div class="d-block pt-4 pb-3 px-3">
+                        <img src="../img/model.png " alt="user"
+                            class="slider-img-user rounded mx-auto d-block d-flex flex-wrap layzload">
+                        <h5 class="font-weight-bold mb-0 1h-1m text-white " style="text-align: center;">
+                            Society Renewable Energy 2023
+                        </h5>
+                        <p class="staff text-white" style="text-align:center;">Staff</p>
+                    </div>
+                </div>
+                <!--Profile staff END-->
+
+                <!--Navbar kiri START-->
+                <div class="slider-body">
+                    <div class="navkiri">
+                        <h5 class="text-center "><a href="#" class="alert-link-light" style="color: #fff;">LoremIpsum</a> </h5>
+                        <button type="button" class="btn horn font-weight-bold btn-warning text-center"> <i class="fa-solid fa-bullhorn"></i> Re-Cast </button>
+                        <h5 class="text-center "><a href="#" class="alert-link-light" style="color: #fff;">Lorem Ipsum</a> </h5>
+                    </div>
+                    <img src="../img/gunung.png" class="gunung layzload">
+                    <img src="../img/gedungSlider.png" class="gedung layzload">
+                </div>
+            </div>
+        </div>
+        <!--Navbar kiri END-->
+
+        <!-- Re-Cast -->
+        <div class="main-pages">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-danger tombol">Re-Cast<button type="button" class="btn create btn-warning "> Create <i class="fa-solid fa-plus"></i></button> </h2> </div>
+                    <!-- Re-Cast END -->
+
+                    <!-- TABEL DATA START-->
+                    <div class="table-responsive">
+                        <table id="tablesre" class="table table-hover  text-wrap" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">PIC</th>
+                                    <th scope="col">DATE</th>
+                                    <th scope="col" style="text-align: justify; width:50%">PARAGRAPH</th>
+                                    <th scope="col">ACTIONS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Society Renewable Energy </td>
+                                    <td>11/11/1111</td>
+                                    <td>Society of Renewable Energy Institut Teknologi Sepuluh Nopember (SRE ITS) exists
+                                        as
+                                        a student organization dedicated to increasing student interest and knowledge of
+                                        new
+                                        and renewable energy. SRE ITS exists to encourage students at ITS and throughout
+                                        Indonesia to be concerned about the renewable energy sector </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i  class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem Ipsum</td>
+                                    <td>DD/MM/YY</td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur</td>
+                                    <td><i class="fa-solid fa-pencil ml-3"></i>
+                                        <i class="fa-regular fa-trash-can ml-3"></i>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- TABEL DATA END -->
+
+                    <!-- Next START-->
+                    <label class="pt-2 pl-3 font-weight-bold">1-10 of xx</label>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 nextbutton pt-3">
+                                <nav class="pagination-outer font-weight-bold" aria-label="Page navigation">
+                                    <label>You're on page</label>
+                                    <!-- Page Number Start-->
+                                    <select class="custom-select my-select mr-4 font-weight-bold"
+                                        style="width: 20%; height: 35px;">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </select>
+                                    <!-- Page Number END-->
+
+                                    <!-- Next Start-->
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a href="./adminpage.html" class="page-link" aria-label="Previous">
+                                                <span aria-hidden="true">«</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="./detailadmin.html" class="page-link" aria-label="Next">
+                                                <span aria-hidden="true">»</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- Next END-->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Next Table END-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.coming {
+    background-color: #FFCC00;
+    transform: translateX(17%);
+    letter-spacing: 6px;
+}
+
+.turbin {
+    background-repeat: no-repeat;
+   transform: translateY(78%);
+    position: relative;
+    height: 30%;
+    width: 10%;
+    clear: both;
+    z-index: 1;
+}
+
+.gedung {
+
+    margin-left: 69%;
+    width: 15%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#background {
+    transform: translateY(70%);
+}

@@ -1,0 +1,36 @@
+footer {
+    background-color: #FDF3E2;
+}
+
+.footer-tulisan {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    transform: translateY(-20%);
+}
+
+.footer-sosmed {
+    color: #000000;
+    font-weight: 500;
+}
+
+.back {
+    background-image: url("../img/elemen.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    clear: both;
+}
+
+@media screen and (max-width: 425px) {
+    .row {
+        display: inline;
+    }
+    .row {
+        display: inline;
+    }
+    .layzload {
+        width: 50%;
+        display: inline-block;
+    }
+}

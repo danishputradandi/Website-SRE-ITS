@@ -1,0 +1,175 @@
+.wrapper {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* Profile ijo */
+.slider {
+    width: 360px;
+    height: 100vh;
+    position: fixed;
+    background: #0F936D;
+    /* fallback for old browsers */
+
+
+}
+
+.slider-head .slider-img-user {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-pages {
+    position: relative;
+    top: 10px;
+    margin-left: 20%;
+    height: auto;
+    color: #000000;
+}
+
+/* slider background */
+.gunung {
+    background-image: url("../img/gunung.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 80%;
+    width: 125%;
+    clear: both;
+    transform: translateX(-20%);
+    z-index: 0;
+}
+
+.gedung {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    clear: both;
+    transform: translateX(-42%);
+
+    z-index: 1;
+}
+
+
+
+/* tombol slider */
+.tombol {
+    margin-top: 3%;
+}
+
+.create {
+    margin-left: 80%;
+}
+
+.fa-plus {
+    margin-left: 10%;
+}
+
+.sreputih {
+    width: 30%;
+    height: 30%;
+}
+
+.horn {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navkiri {
+    margin-top: 10%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* animasi recast */
+.horn:hover {
+    background-color: #FFCC00;
+    box-shadow: 0px 2px 20px rgba(28, 255, 194, 0.4);
+    color: rgb(4, 132, 136);
+    transform: translateY(-7px);
+    font-weight: 200px;
+}
+
+/* next table dan Nomor Page*/
+.nextbutton {
+    margin-left: 76%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagination-outer {
+    text-align: center;
+}
+
+.pagination {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+}
+
+.pagination li a.page-link {
+    color: #fff;
+    background-color: #2d3436;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0 7px;
+    border: none;
+    border-radius: 0;
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.pagination li.active a.page-link,
+.pagination li a.page-link:hover,
+.pagination li.active a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:focus {
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.pagination li a.page-link:before {
+    content: '';
+    border: 3px solid green;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:before {
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(800px) rotateX(180deg);
+}
+
+@media only screen and (max-width: 480px) {
+    .pagination {
+        font-size: 0;
+        display: block;
+    }
+
+    .pagination li {
+        display: inline-block;
+        margin: 0 0 10px;
+    }
+}

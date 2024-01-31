@@ -1,0 +1,264 @@
+/* Main */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-emp {
+    font-size: 1.5rem;
+}
+
+
+/* Hero */
+
+.hero {
+    margin-top: 120px!important;
+}
+
+.hero-text {
+    margin-top: 10rem;
+    margin-left: 7rem;
+}
+
+.header-text {
+    font-family: Poppins;
+    line-height: 78px;
+    font-size: 64px;
+    background-color: #0F936D;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 3px rgba(167, 185, 166, 0.25);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-family: Poppins;
+}
+
+.learn-more {
+    width: 11rem;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    height: 3rem;
+    margin-top: 7rem;
+    border: none;
+    background-color: #FFCC00;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.learn-more i {
+    padding-left: 12px;
+}
+
+.bg-home1 {
+    background-image: url("../img/herohome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    height: 50vw;
+    width: 100vw;
+}
+
+
+/* SRE */
+
+.sre {
+    background-color: #009068;
+}
+
+.container-sre {
+    align-self: center;
+    margin: 10rem 8rem 9rem 8rem;
+}
+
+.container-text-sre {
+    text-align: justify;
+    line-height: 36px;
+    margin: 10rem 8rem 9rem 0rem;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+
+/* Visi Misi */
+
+.visi-misi {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 24px;
+    background-color: rgb(207, 72, 31);
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.185);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.visi-misi-content {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+
+/* RE-CAST */
+
+.card {
+    width: 100%;
+}
+
+.re-cast {
+    background-color: #FDF3E2;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+}
+
+.re-cast-text {
+    text-align: center;
+    padding: 64px;
+    font-size: 60px;
+    color: #EA5528;
+}
+
+.carousel-img {
+    object-fit: cover;
+}
+
+
+/* Insight */
+
+.sre-insight {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#FDF3E2, white);
+    padding-top: 8rem;
+}
+
+.youtube-bg {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+}
+
+.insight-header {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    font-size: 50px;
+    background-color: rgb(207, 72, 31);
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.185);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.insight-image {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    width: 325px;
+    border-radius: 10px;
+    height: 250px;
+    background-color: black;
+    overflow: hidden;
+    align-self: center;
+}
+
+.insight-text {
+    font-size: 18px;
+    max-width: 375px;
+    align-self: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.insight-its {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+video {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    background-color: black;
+    height: 325px;
+    width: 500px;
+    align-self: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Sponsored By */
+
+.sponsored-by {
+    margin-top: 4rem;
+}
+
+.sponsored-by-header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.sponsor-img {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 8rem 0;
+}
+
+.sponsor-img img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: grey;
+    overflow: hidden;
+}
+
+
+/* Carousel */
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 5%;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 5%;
+    font-size: 30px;
+    z-index: 1;
+}
